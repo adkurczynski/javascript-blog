@@ -3,15 +3,18 @@
 function titleClickHandler(event){
   console.log('Link was clicked!');
   console.log(event);
+  const clickedElement = this;
+  /* [DONE] remove class 'active' from all article links  */
   const activeLinks = document.querySelectorAll('.titles a.active');
 
   for(let activeLink of activeLinks){
     activeLink.classList.remove('active');
   }
 
- /* add class 'active' to the clicked link */
-
- /* remove class 'active' from all articles */
+ /* [IN PROGRESS]  add class 'active' to the clicked link */
+ console.log('clickedElement:', clickedElement);
+ clickedElement.classList.add('active');
+ /* [DONE] remove class 'active' from all articles */
  const activeArticles = document.querySelectorAll('article');
 
  for(let activeArticle of activeArticles){
