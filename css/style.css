@@ -107,4 +107,20 @@ body {
 .post-tags p {
   margin: 0 10px 0 0;
 }
+
+.tags {
+  display: inline;
+}
+
+.tag-size-5 {
+  font-size: 24px;
+}
+
+.tag-size-3 {
+  font-size: 20px;
+}
+
+.tag-size-1 {
+  font-size: 16px;
+}
 /*# sourceMappingURL=style.css.map */
