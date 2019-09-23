@@ -123,4 +123,8 @@ body {
 .tag-size-1 {
   font-size: 16px;
 }
+
+article {
+  list-style-type: none;
+}
 /*# sourceMappingURL=style.css.map */
